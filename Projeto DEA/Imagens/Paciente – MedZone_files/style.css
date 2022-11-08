@@ -1,0 +1,130 @@
+/*
+Theme Name:		 Paciente
+Theme URI:		 https://paciente.dev.medzone.com.br/
+Description:	 Paciente is a child theme of Hello, created by Choveu
+Author:			 Choveu
+Author URI:		 https://www.choveu.com/
+Template:		 hello-elementor
+Version:		 1.0.0
+Text Domain:	 medzone
+*/
+
+
+/*
+    Add your custom styles here
+*/
+body, h1, h2, h3, h4, h5, h6 {
+	font-family: 'Helvetica Neue LT Std';
+}
+
+.wrap-cat img {
+	height: 25px;
+}
+.wrap-cat span {
+    font-size: small !important;
+}
+
+.cat-link{
+	color: inherit;
+}
+
+.cat-link:hover{
+	color: inherit;
+	opacity: .8;
+}
+
+.post_like .img-bg {
+	background-image: url('./images/ico-like.svg');
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	width: 35px;
+	height: 35px;
+}
+.post_like .liked .img-bg {
+	background-image: url('./images/ico-like-active.svg');
+}
+
+.btn-like a {
+    color: #42484f;
+    font-family: 'Helvetica Neue';
+    font-weight: 500;
+}
+
+.btn-like a i {
+    color: #AEBA00;
+    font-size: 1.3rem;
+    margin-left: 0.3rem;
+}
+
+.btn-like a span {
+    margin-right: 0.3rem;
+}
+
+.p-mb-0 p{
+    margin-bottom: 0 !important;
+}
+
+body, html {
+    overflow-x: hidden !important;
+}
+
+body{
+    font-family: 'Helvetica Neue LT Std' !important;
+}
+
+@media (max-width: 700px){
+    .container-input {
+        width: 100%;
+        margin: auto;
+    }
+}
+
+@media (max-width: 767px){
+    .elementor-column {
+        width: 100% !important;
+    }
+}
+
+.container-flex{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.box-icon{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-decoration: none;
+}
+
+.box-icon i{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: var(--e-global-color-secondary);
+}
+
+.box-icon:hover i{
+    color: var(--e-global-color-primary) !important;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.container-flex a{
+    cursor: pointer;
+    color: var(--e-global-color-secondary) !important;
+    color: #aeba008e;
+    transition: .3s;
+}
+
+.container-flex a:hover{
+    color: var(--e-global-color-primary) !important;
+}
+
+.elementor-1130 .elementor-element.elementor-element-e5d7d91 {
+    display: none !important;
+}

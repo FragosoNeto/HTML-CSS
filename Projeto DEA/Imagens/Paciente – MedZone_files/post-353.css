@@ -1,0 +1,22 @@
+.elementor-353 .elementor-element.elementor-element-dec1bde{border-style:solid;border-width:0px 0px 0.5px 0px;border-color:#424B4F8C;transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;}.elementor-353 .elementor-element.elementor-element-dec1bde > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-353 .elementor-element.elementor-element-c7c942c img{border-radius:20px 20px 20px 20px;}.elementor-353 .elementor-element.elementor-element-c7c942c > .elementor-widget-container{margin:50px 10px 50px 0px;}.elementor-bc-flex-widget .elementor-353 .elementor-element.elementor-element-480d47a.elementor-column .elementor-column-wrap{align-items:center;}.elementor-353 .elementor-element.elementor-element-480d47a.elementor-column.elementor-element[data-element_type="column"] > .elementor-column-wrap.elementor-element-populated > .elementor-widget-wrap{align-content:center;align-items:center;}.elementor-353 .elementor-element.elementor-element-97135f8{width:auto;max-width:auto;}.elementor-353 .elementor-element.elementor-element-7a1b90c{width:auto;max-width:auto;}.elementor-353 .elementor-element.elementor-element-68a9ce0 .elementor-heading-title{color:var( --e-global-color-secondary );font-family:"Helvetica Neue LT Std", Sans-serif;font-size:1.3rem;font-weight:400;}.elementor-353 .elementor-element.elementor-element-68a9ce0 > .elementor-widget-container{margin:10px 0px 10px 0px;}.elementor-353 .elementor-element.elementor-element-76d8c11{font-family:"Helvetica Neue LT Std", Sans-serif;font-size:14px;font-weight:400;}@media(max-width:1024px){.elementor-353 .elementor-element.elementor-element-c7c942c > .elementor-widget-container{margin:0px 0px 0px 0px;}}@media(max-width:767px){.elementor-353 .elementor-element.elementor-element-dec1bde{padding:5px 5px 5px 5px;}.elementor-353 .elementor-element.elementor-element-c7c942c img{width:100%;height:200px;}}@media(min-width:768px){.elementor-353 .elementor-element.elementor-element-44d797e{width:39.966%;}.elementor-353 .elementor-element.elementor-element-480d47a{width:59.635%;}}/* Start custom CSS for image, class: .elementor-element-c7c942c */.card-medium-img img{
+    object-fit: cover;
+}/* End custom CSS */
+/* Start custom CSS for column, class: .elementor-element-44d797e */.card-medium-img{
+    height: auto;
+}/* End custom CSS */
+/* Start custom CSS for heading, class: .elementor-element-68a9ce0 */.title-2lines div *{
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 2em;
+}/* End custom CSS */
+/* Start custom CSS for text-editor, class: .elementor-element-76d8c11 */.sub-3lines div {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    min-height: 3rem;
+}/* End custom CSS */

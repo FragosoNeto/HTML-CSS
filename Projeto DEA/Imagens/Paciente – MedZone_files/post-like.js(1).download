@@ -1,0 +1,41 @@
+
+
+jQuery(document).ready(function($) {
+
+	jQuery('.pp_like').click(function(e){
+		e.preventDefault();
+		// jQuery('.pp_like').hide();
+		// jQuery('.lds-facebook').show();
+		var postid=jQuery(this).data('id');
+		var data = {
+			action: 'my_action',
+			security : MyAjax.security,
+			postid: postid
+		};
+
+		jQuery.post(MyAjax.ajaxurl, data, function(res) {
+			var result=jQuery.parseJSON( res );
+			console.log(result);
+			var likes="";
+			likes=result.likecount;
+
+			jQuery('.pp_like span.total-class').text(likes);
+
+			if(result.like === 1){
+				jQuery('[data-id="'+postid+'"]').addClass('fas');
+				jQuery('[data-id="'+postid+'"]').removeClass('far');
+				jQuery('[data-id="'+postid+'"]').addClass('liked');
+				console.log('LIKE AQUI: '+postid);
+			}
+
+			if(result.dislike === 1){
+				jQuery('[data-id="'+postid+'"]').removeClass('liked');
+				jQuery('[data-id="'+postid+'"]').removeClass('fas');
+				jQuery('[data-id="'+postid+'"]').addClass('far');
+				console.log('DISLIKE AQUI: '+postid)
+			}
+
+		});
+	});
+
+});

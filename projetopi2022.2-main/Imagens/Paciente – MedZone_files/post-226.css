@@ -1,0 +1,41 @@
+.elementor-226 .elementor-element.elementor-element-5d0989c > .elementor-container{min-height:370px;}.elementor-226 .elementor-element.elementor-element-5d0989c > .elementor-container > .elementor-row > .elementor-column > .elementor-column-wrap > .elementor-widget-wrap{align-content:center;align-items:center;}.elementor-226 .elementor-element.elementor-element-5d0989c:not(.elementor-motion-effects-element-type-background), .elementor-226 .elementor-element.elementor-element-5d0989c > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url("http://paciente.medzone.com.br/wp-content/uploads/2022/06/Grupo-242.png");background-repeat:no-repeat;background-size:initial;}.elementor-226 .elementor-element.elementor-element-5d0989c{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;padding:0px 10px 10px 10px;}.elementor-226 .elementor-element.elementor-element-5d0989c > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-bc-flex-widget .elementor-226 .elementor-element.elementor-element-bda130b.elementor-column .elementor-column-wrap{align-items:center;}.elementor-226 .elementor-element.elementor-element-bda130b.elementor-column.elementor-element[data-element_type="column"] > .elementor-column-wrap.elementor-element-populated > .elementor-widget-wrap{align-content:center;align-items:center;}.elementor-226 .elementor-element.elementor-element-bda130b.elementor-column > .elementor-column-wrap > .elementor-widget-wrap{justify-content:center;}.elementor-226 .elementor-element.elementor-element-ba876cc{width:100%;max-width:100%;}.elementor-226 .elementor-element.elementor-element-199b49f{text-align:center;}.elementor-226 .elementor-element.elementor-element-199b49f .elementor-heading-title{color:#FFFFFF;font-family:"Helvetica Neue LT Std", Sans-serif;font-size:15px;font-weight:500;text-transform:uppercase;}.elementor-226 .elementor-element.elementor-element-199b49f > .elementor-widget-container{margin:0px 0px -10px 0px;}.elementor-226 .elementor-element.elementor-element-003cb26 .jet-listing-dynamic-field__content{color:#FFFFFF;font-family:"Helvetica Neue LT Std", Sans-serif;font-size:14px;font-weight:400;text-align:center;}.elementor-226 .elementor-element.elementor-element-003cb26 .jet-listing-dynamic-field .jet-listing-dynamic-field__inline-wrap{width:auto;}.elementor-226 .elementor-element.elementor-element-003cb26 .jet-listing-dynamic-field .jet-listing-dynamic-field__content{width:auto;}.elementor-226 .elementor-element.elementor-element-003cb26 > .elementor-widget-container{margin:0em 1em 0em 1em;}.elementor-226 .elementor-element.elementor-element-e72f7a6 .jet-listing-dynamic-link__link{align-self:center;text-decoration:underline;color:#FFFFFF;flex-direction:row;}.elementor-226 .elementor-element.elementor-element-e72f7a6 .jet-listing-dynamic-link__icon{order:1;}@media(max-width:767px){.elementor-226 .elementor-element.elementor-element-5d0989c{padding:0px 0px 0px 0px;}}/* Start custom CSS for image, class: .elementor-element-ba876cc */.img-category{
+    filter: brightness(0) invert(1);
+}
+
+.img-category div img {
+    width: 30%;
+    margin-bottom: 1rem !important;
+}
+
+div#Saúde\ Feminina img {
+    max-width: 150%;
+    width: 80px !important;
+}/* End custom CSS */
+/* Start custom CSS for section, class: .elementor-element-5d0989c */.card-category{
+    margin: 15px;
+}
+
+.jet-listing .slick-slide img {
+    margin: auto;
+    width: 60px;
+}
+
+.elementor-226 .elementor-element.elementor-element-5d0989c:not(.elementor-motion-effects-element-type-background), .elementor-226 .elementor-element.elementor-element-5d0989c > .elementor-motion-effects-container > .elementor-motion-effects-layer {
+    
+    background-size: 100% 95%;
+}
+
+.card-category {
+    height: 430px !important;
+    width: 98% !important;
+}
+
+@media screen and (max-width: 767px){
+    .card-category {
+        width: 92% !important;
+    }
+}
+
+div#Nutrição\ e\ Suplementação img {
+    width: 50px !important;
+}/* End custom CSS */

@@ -1,0 +1,150 @@
+@charset "UTF-8";
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    background-color:#B8ECFD;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+#hd{
+    width: auto;
+    height: 300px;
+    text-align: right;
+    background-image:url(Imagens/hospital-1\ \(4\)\ \(1\).png);
+    margin: auto;
+    padding: 10px;
+    background-attachment: fixed;
+    box-shadow:inset 5px -7px 16px 7px rgb(101, 96, 96);
+    
+}
+.titulo{
+    width: 90vw;
+    height: 300px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #b8ecfd73;
+    box-shadow: 6px 6px 10px 0px rgba(123, 120, 120, 0.572);
+    
+}
+h1{
+    font-size: xx-large;
+    text-align: right;
+    color: white;
+    font-size: 50px;
+    text-shadow:2px 2px 2px black; 
+}
+h2{
+    background-color: #ec9a996e;
+    color:black;
+}
+nav{
+    position: relative;
+    height: 130px;
+    background-color:#B8ECFD;
+    box-shadow: 6px 6px 10px 0px rgb(25, 24, 24);
+        
+}
+.log{
+    height: 130px;
+    width: 30%;
+    background-color:#eea09f;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    clip-path: polygon(9% 0, 100% 0, 100% 100%, 0% 100%);
+    box-shadow: 6px 6px 10px rgb(25, 24, 24);
+    
+
+}
+.ca{
+    position: absolute;
+    height: 110px;
+    width: 5%;
+    padding: 0%;
+    margin-top: 0%;
+    background-image: url(Imagens/pulso2.png);
+    margin-left: 25%;
+    
+    
+}
+.nome{
+    color: #B8ECFD;
+    font-size: 4vh;
+    text-align:center
+}
+p{
+    line-height: 150%;
+    text-align: justify;
+} 
+
+#menu{
+    display:block;
+}
+#menu ul{
+    list-style: none;
+    text-transform: uppercase;
+    position: absolute;
+    
+}
+#menu li{
+    display: inline-block;
+    background-color: rgba(3, 120, 144, 0.323);
+    padding: 10px;
+    margin: 2px;
+    transition: background-color 0.3s; 
+    top: 50%;
+    left: 50%;
+    box-shadow: 5px 5px 5px  rgb(90, 84, 84);
+
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+#menu li:hover {
+    background-color:greenyellow
+}
+#corpo{
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    width: 60%;
+    padding: 30px;
+    background-color: rgb(246, 245, 243);
+    font-size: 20px;
+    border-radius: 10px;
+}
+#corpo1{
+    
+    margin-right: auto;
+    margin-top: 10px;
+    width: 49%;
+    background-color: white;
+    border-radius: 10px;
+    vertical-align: top;
+    display: table-cell;
+    padding: 20px;
+    
+}
+#corpo2{
+    margin-left: auto;
+    width: 48%;
+    background-color:white;
+    margin-top: 10px;
+    border-radius: 10px;
+    vertical-align: top;
+    display: table-cell;
+    padding: 10px;
+
+}
+iframe{
+    width: 100%;
+
+}
+
+
+ 
+
